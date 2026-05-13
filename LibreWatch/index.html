@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LibreWatch · Support</title>
+  <meta name="description" content="Support for LibreWatch, an Apple Watch viewer for LibreLinkUp glucose readings.">
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+      line-height: 1.55;
+      color: #1a1a1a;
+      background: #fafafa;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background: #111; color: #eee; }
+      a { color: #5ac8fa; }
+      .card { background: #1c1c1e; }
+    }
+    h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.15rem; margin-top: 2rem; }
+    .tagline { color: #666; margin-top: 0; }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      margin: 1.25rem 0;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    code {
+      background: rgba(127,127,127,0.15);
+      padding: 0.1rem 0.35rem;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    ul { padding-left: 1.25rem; }
+    .small { font-size: 0.85rem; color: #888; }
+    .footer-links a { margin-right: 1rem; }
+  </style>
+</head>
+<body>
+
+  <h1>LibreWatch</h1>
+  <p class="tagline">Glucose on your wrist.</p>
+
+  <p>LibreWatch is a standalone Apple Watch viewer for your LibreLinkUp readings. Sign in once, pick a complication, and your latest value is always a glance away.</p>
+
+  <h2>Getting started</h2>
+  <ol>
+    <li>Make sure a friend or family member is sharing data with you in the official LibreLinkUp iPhone app, or that you have your own active connection.</li>
+    <li>Open LibreWatch on your Apple Watch and tap the gear icon.</li>
+    <li>Enter your LibreLinkUp email, password, and region, then tap Connect.</li>
+    <li>Long-press your watch face → <em>Edit</em> → <em>Complications</em> → place LibreWatch in any slot.</li>
+  </ol>
+
+  <h2>FAQ</h2>
+
+  <div class="card">
+    <strong>How often does the value refresh?</strong>
+    <p>The app requests a refresh every 5 minutes in the background. watchOS may delay individual refreshes to conserve battery — refreshes are most reliable when the LibreWatch complication is on the watch face you're currently using.</p>
+  </div>
+
+  <div class="card">
+    <strong>The app says "no connections" after I sign in.</strong>
+    <p>Your LibreLinkUp account exists but no one is sharing glucose data with it yet. Open the official LibreLinkUp iPhone app and confirm at least one active connection is listed under People I Follow.</p>
+  </div>
+
+  <div class="card">
+    <strong>I got "wrong region" or the app keeps redirecting.</strong>
+    <p>LibreLinkUp routes accounts to regional servers. In Settings, change the Region picker to match where the account was created (most commonly United States, Europe, or Canada).</p>
+  </div>
+
+  <div class="card">
+    <strong>Will my readings show up in Apple Health?</strong>
+    <p>Not at this time. LibreWatch is a viewer only.</p>
+  </div>
+
+  <h2>Contact</h2>
+  <p>For bug reports or questions, please open an issue on GitHub: <a href="https://github.com/mounirelchoueiri/AppStore/issues">github.com/mounirelchoueiri/AppStore/issues</a>.</p>
+
+  <h2 id="disclaimer">Disclaimer</h2>
+  <p>LibreWatch is an unofficial client and is <strong>not made, endorsed, sponsored, or supported by Abbott</strong>. FreeStyle Libre and LibreLinkUp are trademarks of Abbott. LibreWatch is provided for informational viewing only and is not a medical device. Do not use it to make treatment decisions; always confirm readings in the official Abbott apps.</p>
+
+  <p class="footer-links small">
+    <a href="privacy.html">Privacy Policy</a>
+  </p>
+
+</body>
+</html>

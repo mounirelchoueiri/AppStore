@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LibreWatch · Privacy Policy</title>
+  <meta name="description" content="Privacy policy for LibreWatch.">
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+      line-height: 1.55;
+      color: #1a1a1a;
+      background: #fafafa;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background: #111; color: #eee; }
+      a { color: #5ac8fa; }
+    }
+    h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.15rem; margin-top: 2rem; }
+    .updated { color: #888; font-size: 0.9rem; }
+    ul { padding-left: 1.25rem; }
+    .small { font-size: 0.85rem; color: #888; }
+  </style>
+</head>
+<body>
+
+  <h1>LibreWatch Privacy Policy</h1>
+  <p class="updated">Last updated: 13 May 2026</p>
+
+  <p>LibreWatch ("the app") is designed to keep your data private. This policy explains what the app does and does not do with information you provide.</p>
+
+  <h2>What we collect</h2>
+  <p><strong>Nothing.</strong> LibreWatch does not collect, store, or transmit any personal data to the developer or to any third-party server controlled by the developer. There is no analytics, no crash reporting service, no advertising SDK, and no tracking of any kind.</p>
+
+  <h2>How your LibreLinkUp credentials are handled</h2>
+  <ul>
+    <li>Your LibreLinkUp <strong>email</strong> and selected <strong>region</strong> are stored locally on your Apple Watch using <code>UserDefaults</code>.</li>
+    <li>Your LibreLinkUp <strong>password</strong> is stored locally on your Apple Watch in the system <strong>Keychain</strong>, which is encrypted by Apple and only accessible to LibreWatch itself.</li>
+    <li>Credentials are sent directly from your Apple Watch to LibreLinkUp's servers (Abbott) over HTTPS for the purpose of authenticating and retrieving your glucose readings.</li>
+    <li>Credentials are never transmitted to the developer or to any other third party.</li>
+  </ul>
+
+  <h2>Glucose data</h2>
+  <p>Glucose readings retrieved from LibreLinkUp are kept only on your Apple Watch for display. The most recent reading is also shared with the LibreWatch complication via an App Group container, which is sandboxed by iOS/watchOS and only accessible to LibreWatch and its widget extension on your device.</p>
+
+  <h2>Third-party services</h2>
+  <p>LibreWatch communicates with <a href="https://www.libreview.com/">LibreLinkUp servers operated by Abbott</a> in order to retrieve glucose data. By using the app you are subject to Abbott's own terms and privacy policy with respect to that data. LibreWatch is not affiliated with Abbott.</p>
+
+  <h2>Children</h2>
+  <p>LibreWatch is not directed at children under 13 and does not knowingly collect data from anyone.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy is ever updated, the new version will be published on this page along with a new "Last updated" date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions: open an issue at <a href="https://github.com/mounirelchoueiri/AppStore/issues">github.com/mounirelchoueiri/AppStore/issues</a></p>
+
+  <p class="small"><a href="index.html">← Back to support</a></p>
+
+</body>
+</html>
